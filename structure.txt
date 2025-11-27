@@ -1,0 +1,48 @@
+tontine-app/
+│
+├── config/
+│   └── database.php
+│
+├── public/
+│   ├── index.php
+│   ├── assets/
+│   │   ├── css/
+│   │   │   └── style.css
+│   │   ├── js/
+│   │   │   └── chart.js
+│   │   └── images/
+│
+├── src/
+│   ├── controllers/
+│   │   ├── AuthController.php
+│   │   ├── DashboardController.php
+│   │   ├── CotisationController.php
+│   │   ├── RetraitController.php
+│   ├── models/
+│   │   ├── User.php
+│   │   ├── Cotisation.php
+│   │   ├── Retrait.php
+│   ├── views/
+│   │   ├── auth/
+│   │   │   ├── login.php
+│   │   │   └── register.php
+│   │   ├── dashboard/
+│   │   │   ├── admin.php
+│   │   │   ├── caissier.php
+│   │   │   └── membre.php
+│   │   └── partials/
+│   │       ├── header.php
+│   │       ├── footer.php
+│   │       └── sidebar.php
+│
+├── routes/
+│   └── web.php
+│
+├── database/
+│   └── migrations/
+│       ├── create_users_table.sql
+│       ├── create_cotisations_table.sql
+│       └── create_retraits_table.sql
+│
+├── .env
+└── README.md
